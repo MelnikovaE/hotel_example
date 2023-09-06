@@ -49,28 +49,27 @@ class _PaymentScreenState extends State<PaymentScreen> {
                 ),
               ),
               const SizedBox(height: 30),
+
               Text(
                 "Ваш заказ принят в работу",
                 style: MyTextStyle.bigLine2(color: black),
               ),
               const SizedBox(height: 25),
-              RichText(
+              
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: defaultPaddin),
+                child: Text(
+                  "Подтверждение заказа №$randomNumber может занять некоторое время (от 1 часа до суток). \nКак только мы получим ответ от туроператора, вам на почту придет уведомление.",
                   textAlign: TextAlign.center,
-                  text: TextSpan(children: [
-                    TextSpan(
-                        text:
-                            "Подтверждение заказа №$randomNumber может\n  занять некоторое время (от 1 часа до суток).",
-                        style: MyTextStyle.headLine2S(color: gray)),
-                    TextSpan(
-                        text:
-                            "\nКак только мы получим ответ от\n туроператора, вам на почту придет\n уведомление.",
-                        style: MyTextStyle.headLine2S(color: gray))
-                  ])),
+                  style: MyTextStyle.headLine2S(color: gray),
+                ),
+              ),
             ]),
           ),
+          
           const Divider(
-            thickness: 0.5,
-            color: gray,
+            thickness: 1,
+            color: grayDivider,
             height: 1,
           ),
           Padding(
