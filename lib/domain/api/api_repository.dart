@@ -1,5 +1,5 @@
-import 'package:hotel/domen/api/api_provader.dart';
-import 'package:hotel/domen/models/booking.dart';
+import 'package:hotel/domain/api/api_provader.dart';
+import 'package:hotel/domain/models/booking.dart';
 
 import '../models/hotel.dart';
 import '../models/room.dart';

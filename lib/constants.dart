@@ -28,50 +28,45 @@ const errorRed = Color.fromRGBO(235, 87, 87, 0.15);
 
 //основные шрифты
 class MyTextStyle {
-  static TextStyle bigLine1({required Color color}) {
-    return TextStyle(
+  static TextStyle bigLine1({required Color color}) =>
+     TextStyle(
       fontWeight: FontWeight.w600,
       fontSize: 30,
       fontFamily: 'SF',
       color: color,
     );
-  }
+  
 
-  static TextStyle bigLine2({required Color color}) {
-    return TextStyle(
+  static TextStyle bigLine2({required Color color}) => TextStyle(
       fontWeight: FontWeight.w500,
       fontSize: 22,
       height: 1.3,
       color: color,
     );
-  }
 
-  static const TextStyle headLine1 =
-      TextStyle(fontWeight: FontWeight.w500, fontSize: 18, color: black);
 
-  static TextStyle headLine2({required Color color}) {
-    return TextStyle(
+  static const TextStyle headLine1 = TextStyle(fontWeight: FontWeight.w500, fontSize: 18, color: black);
+
+  static TextStyle headLine2({required Color color}) => TextStyle(
       fontWeight: FontWeight.w500,
       fontSize: 16,
       fontFamily: 'SF',
       color: color,
     );
-  }
+  
 
-  static TextStyle headLine2S({required Color color}) {
-    return TextStyle(
+  static TextStyle headLine2S({required Color color}) => TextStyle(
       fontWeight: FontWeight.w400,
       fontSize: 16,
       fontFamily: 'SF',
       color: color,
     );
-  }
+  
 
-  static TextStyle headLine3({required Color color}) {
-    return TextStyle(
+  static TextStyle headLine3({required Color color}) => TextStyle(
         fontWeight: FontWeight.w500,
         fontSize: 14,
         fontFamily: 'SF',
         color: color);
-  }
+  
 }

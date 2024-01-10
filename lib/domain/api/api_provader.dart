@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:hotel/domen/models/booking.dart';
-import 'package:hotel/domen/models/room.dart';
+import 'package:hotel/domain/models/booking.dart';
+import 'package:hotel/domain/models/room.dart';
 
 import '../models/hotel.dart';
 
