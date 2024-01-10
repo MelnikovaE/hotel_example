@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hotel/presentation/widgets/basic_information_about_hotel.dart';
 import 'package:hotel/presentation/widgets/carousel_image.dart';
 
-import '../../../../constants.dart';
-import '../../../../domen/models/hotel.dart';
+import '../../../../core/constants.dart';
+import '../../../../domain/models/hotel.dart';
 
 class BasicData extends StatefulWidget {
   final Hotel hotel;

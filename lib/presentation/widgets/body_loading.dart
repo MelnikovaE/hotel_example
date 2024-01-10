@@ -1,7 +1,7 @@
  import 'package:flutter/cupertino.dart';
 import 'package:shimmer/shimmer.dart';
 
-import '../../constants.dart';
+import '../../core/constants.dart';
 
 Widget bodyLoading() {
     return Center(

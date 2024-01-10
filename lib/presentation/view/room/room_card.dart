@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hotel/presentation/widgets/blue_button.dart';
 import 'package:hotel/presentation/widgets/custom_container.dart';
 import 'package:hotel/presentation/widgets/peculiaritie_card.dart';
-import '../../../constants.dart';
-import '../../../domen/models/room.dart';
+import '../../../core/constants.dart';
+import '../../../domain/models/room.dart';
 import '../../widgets/carousel_image.dart';
 import '../booking/booking_screen.dart';
 

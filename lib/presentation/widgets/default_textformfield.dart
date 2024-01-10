@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hotel/constants.dart';
+import 'package:hotel/core/constants.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 
 

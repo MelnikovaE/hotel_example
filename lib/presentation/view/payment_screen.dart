@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:hotel/constants.dart';
+import 'package:hotel/core/constants.dart';
 import 'package:hotel/presentation/view/hotel/hotel_screen.dart';
 import '../widgets/blue_button.dart';
 

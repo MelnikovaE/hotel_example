@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hotel/domen/models/hotel.dart';
+import 'package:hotel/domain/models/hotel.dart';
 import 'package:hotel/presentation/bloc/bloc_room/room_bloc.dart';
 import 'package:hotel/presentation/view/room/room_card.dart';
 import 'package:hotel/presentation/widgets/body_loading.dart';
 
-import '../../../constants.dart';
+import '../../../core/constants.dart';
 
 class RoomScreen extends StatefulWidget {
   final Hotel hotel;

@@ -1,13 +1,13 @@
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
-import 'package:hotel/domen/models/buyer.dart';
+import 'package:hotel/domain/models/buyer.dart';
 import 'package:hotel/presentation/view/booking/components/price_details.dart';
 import 'package:hotel/presentation/view/booking/components/tourist_card.dart';
 import 'package:hotel/presentation/view/payment_screen.dart';
 import 'package:hotel/presentation/widgets/header_and_button.dart';
-import '../../../../constants.dart';
-import '../../../../domen/models/booking.dart';
-import '../../../../domen/models/tourist.dart';
+import '../../../../core/constants.dart';
+import '../../../../domain/models/booking.dart';
+import '../../../../domain/models/tourist.dart';
 import '../../../widgets/basic_information_about_hotel.dart';
 import '../../../widgets/blue_button.dart';
 import '../../../widgets/custom_container.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hotel/constants.dart';
-import 'package:hotel/domen/models/hotel.dart';
+import 'package:hotel/core/constants.dart';
+import 'package:hotel/domain/models/hotel.dart';
 import 'package:hotel/presentation/widgets/custom_container.dart';
 
 import '../../../widgets/menu_card.dart';

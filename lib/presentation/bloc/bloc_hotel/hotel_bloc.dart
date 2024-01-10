@@ -1,9 +1,9 @@
 // ignore: depend_on_referenced_packages
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:hotel/domen/models/hotel.dart';
+import 'package:hotel/domain/models/hotel.dart';
 
-import '../../../domen/api/api_repository.dart';
+import '../../../domain/api/api_repository.dart';
 
 part 'hotel_event.dart';
 part 'hotel_state.dart';

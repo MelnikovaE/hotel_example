@@ -1,6 +1,6 @@
   import 'package:flutter/material.dart';
 
-import '../../constants.dart';
+import '../../core/constants.dart';
 import 'mini_button.dart';
 
 Row headerAndButton(

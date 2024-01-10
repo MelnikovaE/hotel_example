@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../constants.dart';
+import '../../core/constants.dart';
 
 Container defaultContainer({required dynamic child}) => Container(
       margin: const EdgeInsets.only(top: defaultPaddin / 2),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hotel/constants.dart';
+import 'package:hotel/core/constants.dart';
 
 class MenuCard extends StatefulWidget {
   final String icon;

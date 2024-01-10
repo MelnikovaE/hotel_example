@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hotel/domen/models/booking.dart';
+import 'package:hotel/domain/models/booking.dart';
 import '../../../widgets/table_row.dart';
 
 class BookingDetails extends StatelessWidget {

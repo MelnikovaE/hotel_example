@@ -2,8 +2,8 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 
-import '../../../domen/api/api_repository.dart';
-import '../../../domen/models/room.dart';
+import '../../../domain/api/api_repository.dart';
+import '../../../domain/models/room.dart';
 
 part 'room_event.dart';
 part 'room_state.dart';

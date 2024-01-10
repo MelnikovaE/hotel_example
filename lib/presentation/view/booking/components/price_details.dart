@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../../constants.dart';
-import '../../../../domen/models/booking.dart';
+import '../../../../core/constants.dart';
+import '../../../../domain/models/booking.dart';
 import '../../../widgets/table_row.dart';
 
 class PriceDetails extends StatelessWidget {

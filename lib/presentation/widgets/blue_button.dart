@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../constants.dart';
+import '../../core/constants.dart';
 
 class MyButton extends StatelessWidget {
   final Function()? function;

@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
 import "package:flutter_bloc/flutter_bloc.dart";
-import "package:hotel/constants.dart";
+import 'package:hotel/core/constants.dart';
 import "package:hotel/presentation/bloc/bloc_hotel/hotel_bloc.dart";
 import "../../widgets/body_loading.dart";
 import "components/body.dart";

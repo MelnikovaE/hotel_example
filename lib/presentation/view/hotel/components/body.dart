@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:hotel/constants.dart';
+import 'package:hotel/core/constants.dart';
 import 'package:hotel/presentation/view/room/rooms_screen.dart';
 import 'basic_data.dart';
 import 'details.dart';
 
-import '../../../../domen/models/hotel.dart';
+import '../../../../domain/models/hotel.dart';
 import '../../../widgets/blue_button.dart';
 
 Widget bodyLoaded(BuildContext context, Hotel hotel) {

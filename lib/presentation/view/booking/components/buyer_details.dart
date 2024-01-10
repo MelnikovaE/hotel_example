@@ -1,8 +1,8 @@
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 
-import '../../../../constants.dart';
-import '../../../../domen/models/buyer.dart';
+import '../../../../core/constants.dart';
+import '../../../../domain/models/buyer.dart';
 import '../../../widgets/custom_container.dart';
 import '../../../widgets/default_textformfield.dart';
 

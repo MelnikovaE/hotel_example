@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hotel/domen/models/tourist.dart';
+import 'package:hotel/domain/models/tourist.dart';
 import 'package:hotel/presentation/widgets/custom_container.dart';
 
-import '../../../../constants.dart';
+import '../../../../core/constants.dart';
 import '../../../widgets/default_textformfield.dart';
 import '../../../widgets/header_and_button.dart';
 
